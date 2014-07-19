@@ -6,12 +6,13 @@ define(function (require, exports) {
 
     var templateMap = require('presentations/template-map');
     var util = require('lib/util');
-    var templateFileName = templateMap.getTemplateFileName(util.getQueryParameter('name'));
+    var templateData = templateMap.getTemplateData(util.getQueryParameter('name'));
 
     exports.render = function (container) {
-        require(['lib/text!presentations/' + templateFileName], function (template) {
+        require(['lib/text!presentations/' + templateData.name], function (template) {
             var $container = $(container);
             $container.append(template);
+            $('title').text(templateData.title);
             require(['reveal-init']);
         });
     };

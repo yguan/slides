@@ -5,11 +5,17 @@ define(function (require, exports) {
     'use strict';
 
     var templateMap = {
-        'browser-automation': 'browser-automation'
+        'browser-automation': {
+            name: 'browser-automation.tpl',
+            title: 'In-Browser Automation'
+        }
     };
 
-    exports.getTemplateFileName = function (name) {
-        return (templateMap[name] || 'default') + '.tpl';
+    exports.getTemplateData = function (name) {
+        return templateMap[name] || {
+            name: 'default.tpl',
+            title: 'Yong Guan\'s Presentations'
+        };
     };
 });
 

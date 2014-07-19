@@ -7,7 +7,7 @@ define(function (require, exports) {
     exports.getQueryParameter = function (name) {
         name = name.toLowerCase().replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
         var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-            results = regex.exec(window.location.hash.toLowerCase());
+            results = regex.exec(window.location.search.toLowerCase());
         return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     };
 });
