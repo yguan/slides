@@ -17,3 +17,7 @@ ul.indent {
 .center {
     text-align: center;
 }
+
+.reveal small {
+    letter-spacing: 0.1em;
+}

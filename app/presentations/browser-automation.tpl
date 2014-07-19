@@ -3,10 +3,10 @@
 <!-- Any section element inside of this container is displayed as a slide -->
 <div class="slides">
 <section>
-    <h1>Presentations</h1>
-    <h3>A Collection of Presentation from Yong Guan</h3>
+    <h1>In-Browser Test Automation</h1>
+    <h3>An Simpler Way to Write Browser Automation Tests</h3>
     <p class="center">
-        <small>Created by <a href="https://github.com/yguan">Yong Guan</a></small>
+        <small>By <a href="https://github.com/yguan" target="_blank">Yong Guan</a></small>
     </p>
 </section>
 
