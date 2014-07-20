@@ -3,7 +3,7 @@
 <div class="slides">
 <section>
     <h1>In-Browser Test Automation</h1>
-    <h3>An Simpler Way to Write Browser Automation Tests</h3>
+    <h3>A Simpler Way to Write Browser Automation Tests</h3>
     <p class="center">
         <small>By <a href="https://github.com/yguan" target="_blank">Yong Guan</a></small>
     </p>
@@ -52,6 +52,11 @@ describe('jquery.com', function () {
 });
         </code>
     </pre>
+    <ul>
+        <li>Navigate to jquery.com</li>
+        <li>Run the above code in the browser's console</li>
+        <li>Make sure to enable popup</li>
+    </ul>
 </section>
 
 <section>
@@ -71,9 +76,29 @@ describe('jquery.com', function () {
 });
         </code>
     </pre>
-    <p><a href="https://github.com/yguan/browser-automation" target="_blank">browser.js</a> supports chaining of asynchronous operations and waiting for condition met.</p>
+    <ul>
+        <li>Navigate to jquery.com</li>
+        <li>Copy and run <a href="https://github.com/yguan/browser-automation" target="_blank">browser.js</a> in the browser's console</li>
+        <li>Run the above code in the browser's console</li>
+    </ul>
+    <p class="note">
+        browser.js supports chaining of asynchronous operations and waiting for condition met.
+    </p>
 </section>
 
+<section>
+    <h2>Cross-Domain Issue</h2>
+    <p class="pad-bottom">The previous two examples are required to be run through the browser's console so that the code is run in the same domain as jquery.com.</p>
+    <p>To bypass the cross-domain problem, there are a few options:</p>
+    <ol class="indent">
+        <li>Manually inject the test code to a browser</li>
+        <li>Use WebDriver to start a browser and then inject the test code</li>
+        <li>Host the test code in the same domain as the site under test</li>
+    </ol>
+    <p class="note">
+        You can find more details from <a href="https://github.com/yguan/browser-tests" target="_blank">here.</a>
+    </p>
+</section>
 
 <!-- Example of nested vertical slides -->
 <section>

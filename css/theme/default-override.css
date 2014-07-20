@@ -10,8 +10,13 @@ p {
     text-transform: capitalize;
 }
 
+ol.indent,
 ul.indent {
     margin: .3em 2em;
+}
+.reveal p.pad-bottom,
+.reveal li {
+    padding-bottom: .2em;
 }
 
 .center {
@@ -22,7 +27,21 @@ ul.indent {
     letter-spacing: 0.02em;
 }
 
+.reveal pre {
+    box-shadow: none;
+    margin-bottom: 0;
+}
 pre code {
     font-size: 18px;
     margin-top: 20px;
+}
+
+.reveal .note {
+    display: block;
+    padding: 20px 0;
+}
+
+.reveal .note,
+.reveal .small {
+    font-size: .6em;
 }
