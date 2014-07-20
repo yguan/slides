@@ -116,9 +116,11 @@ describe('jquery.com', function () {
 
 <section>
     <h2>Open Multiple Browsers at once without Using WebDriver</h2>
-    <p class="pad-bottom">If the use case is to open multiple browsers with a specific url, there is no need use WebDriver.</p>
-    <p class="pad-bottom"><a href="https://github.com/pwnall/node-open" target="_blank">node-open</a> will do the job with minimal installation and run time resources.</p>
-    <p>After installing node-open, you can run the following code with node and see all three browsers open all at once.</p>
+    <ul>
+        <li>If the use case is to open multiple browsers with a specific url, there is no need use WebDriver.</li>
+        <li><a href="https://github.com/pwnall/node-open" target="_blank">node-open</a> will do the job with minimal installation and run time resources.</li>
+        <li>After installing node-open, you can run the following code with node and see all three browsers open all at once.</li>
+    </ul>
     <pre>
         <code class="javascript " data-trim contenteditable>
 var open = require("open");
@@ -127,6 +129,68 @@ open("http://www.google.com", "firefox");
 open("http://www.google.com", "iexplore");
         </code>
     </pre>
+</section>
+
+<section>
+    <h2>Record UI Interactions</h2>
+    <p class="pad-bottom"><a href="https://github.com/yguan/ui-recorder" target="_blank">ui-recorder</a> is a utility script that supports browser event capturing.</p>
+    <ul class="indent">
+        <li>Events from all nested iframes are captured</li>
+        <li>Events to capture are customizable</li>
+        <li>Generated code for captured events is customizable</li>
+    </ul>
+    <p class="note">
+        The easiest way to use ui-recorder may be integrate it to your site when dev/debug mode is on. Then you can use it by typing command from the browser's console.
+    </p>
+</section>
+
+<section>
+    <h2>Convince Your Boss to Ditch WebDriver</h2>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>In-Browser</th>
+                <th>WebDriver</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Run in browser</td>
+            <td>Yes</td>
+            <td>Impossible</td>
+        <tr/>
+            <tr>
+                <td>Debug</td>
+                <td>Easy</td>
+                <td>Not straight forward</td>
+            <tr/>
+            <tr>
+                <td>Runtime dependency</td>
+                <td>Minimal</td>
+                <td>A Lot (sever and drivers)</td>
+            <tr/>
+            <tr>
+                <td>Complexity</td>
+                <td>browser.js<br/>362 LOC with comments</td>
+                <td>Lots of LOC<br/>(server and drivers)</td>
+            <tr/>
+        </tbody>
+    </table>
+    <p class="note">
+        You can find more information <a href="http://yguan.github.io/repos/writings/#test-automation?article=browser-tests" target="_blank">here.</a>
+    </p>
+</section>
+
+<section>
+    <h2>Resources</h2>
+    <ul>
+        <li><a href="https://github.com/yguan/ui-recorder" target="_blank">ui-recorder</a></li>
+        <li><a href="https://github.com/yguan/browser-automation" target="_blank">browser-automation</a></li>
+        <li><a href="https://github.com/yguan/browser-tests" target="_blank">browser-tests</a></li>
+        <li><a href="https://github.com/yguan/http-replay-server" target="_blank">http-replay-server</a></li>
+        <li><a href="https://github.com/pwnall/node-open" target="_blank">node-open</a></li>
+    </ul>
 </section>
 
 <section>

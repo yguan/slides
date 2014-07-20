@@ -45,3 +45,21 @@ pre code {
 .reveal .small {
     font-size: .6em;
 }
+
+.reveal table th {
+    font-weight: bold;
+}
+
+.reveal table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.reveal table th,
+.reveal table td {
+    text-align: left;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-bottom: 1px solid;
+    font-size: 0.8em;
+}
