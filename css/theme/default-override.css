@@ -18,6 +18,11 @@ ul.indent {
     text-align: center;
 }
 
-.reveal small {
-    letter-spacing: 0.1em;
+.reveal {
+    letter-spacing: 0.02em;
+}
+
+pre code {
+    font-size: 18px;
+    margin-top: 20px;
 }

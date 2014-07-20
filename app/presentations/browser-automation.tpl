@@ -1,6 +1,5 @@
 <div class="reveal">
 
-<!-- Any section element inside of this container is displayed as a slide -->
 <div class="slides">
 <section>
     <h1>In-Browser Test Automation</h1>
@@ -11,23 +10,75 @@
 </section>
 
 <section>
-    <h2>In-browser Automation</h2>
+    <h2>Overview</h2>
     <p>
-        This presentation tries to show the audiences an easier way to write browser automation tests.
+        This presentation shows audience a simpler way to write browser automation tests, specifically for browser-based functional tests. It will enable you to
     </p>
     <ul class="indent">
-        <li>Write your tests in JavaScript.</li>
-        <li>Choose any JavaScript test framework, such as Mocha, Jasmine, and QUnit.</li>
-        <li>Run your test in the browser.</li>
-        <li>No need for WebDriver.</li>
+        <li class="fragment">choose any JavaScript test framework, such as Mocha, Jasmine, and QUnit</li>
+        <li class="fragment">write your tests in JavaScript</li>
+        <li class="fragment">run your tests in a browser</li>
+        <li class="fragment">debug your tests in a browser</li>
+        <li class="fragment">write your tests in a browser</li>
+        <li class="fragment">and forget about WebDriver</li>
     </ul>
-    <p>To learn more, click <a href="index.html?name=browser-automation">here</a>.</p>
 </section>
+
+<section>
+    <h2>The Basic Concept</h2>
+    <ul>
+        <li class="fragment">Write tests with a JavaScript test framework, such as Mocha, Jasmine, and QUnit</li>
+        <li class="fragment">In the tests, open a window and keep the window reference</li>
+        <li class="fragment">Through the window reference, use what's available to the window to manipulate the DOM</li>
+    </ul>
+</section>
+
+<section>
+    <h2>A Basic Example with Mocha</h2>
+    <pre>
+        <code class="javascript " data-trim contenteditable>
+describe('jquery.com', function () {
+    it('should type some text to the search box', function (done) {
+        var win = window.open('http://jquery.com/');
+
+        // The setTimeout can be replaced with a wait function
+        setTimeout(function () {
+            if (win.$) {
+                var searchBox = win.$('.searchform :input');
+                searchBox.val('css selector').click();
+            }
+        }, 5000);
+    });
+});
+        </code>
+    </pre>
+</section>
+
+<section>
+    <h2>A Better Example with browser.js</h2>
+    <pre>
+        <code class="javascript " data-trim contenteditable>
+describe('jquery.com', function () {
+    it('should type some text to the search box', function (done) {
+        var browser = window.browser.init();
+
+        browser
+            .openWindow('http://jquery.com/')
+            .typeValue('.searchform :input', 'css selector');
+
+        browser.end(done);
+    });
+});
+        </code>
+    </pre>
+    <p><a href="https://github.com/yguan/browser-automation" target="_blank">browser.js</a> supports chaining of asynchronous operations and waiting for condition met.</p>
+</section>
+
 
 <!-- Example of nested vertical slides -->
 <section>
     <section>
-        <h2>Vertical Slides</h2>
+        <h2>A Basic S</h2>
 
         <p>
             Slides can be nested inside of other slides,
