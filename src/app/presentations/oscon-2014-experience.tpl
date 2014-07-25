@@ -31,6 +31,12 @@
         <li>Most were from the U.S., and quite a few from Portland</li>
         <li>Some were from other countries, but not a lot. Australia, Amsterdam, Germany.</li>
         <li>Some kids in exhibition hall (kind of family-friendly)</li>
+        <li>A really diverse crowd
+            <ul>
+                <li>Scientists, geneticists, and industrial machine programmers</li>
+                <li>A couple people even worked for observatories in Hawaii.</li>
+            </ul>
+        </li>
     </ul>
 </section>
 
