@@ -12,11 +12,11 @@
 <section>
     <h2>Overview</h2>
     <p>
-        This presentation covers what I learned from <a href="http://www.oscon.com/oscon2014">OSCON 2014</a>.
+        This presentation covers what I learned from <a href="http://www.oscon.com/oscon2014" target="_blank">OSCON 2014</a>.
     </p>
     <ul class="indent">
-        <li>Inspirational keynotes - todo: link to section</li>
-        <li>Insightful sessions</li>
+        <li><a href="#/2">Inspirational keynotes</a></li>
+        <li><a href="#/6">Insightful sessions</a></li>
         <li>Introductory sessions</li>
     </ul>
 </section>
@@ -28,28 +28,33 @@
 <section>
     <h3>Building an API for the Planet</h3>
     <h4>With a New Approach to Satellites</h4>
-    <p>
+    <p class="center pad-top">
+        <iframe width="640" height="360" src="//www.youtube.com/embed/2vYwaBWlVyI" frameborder="0" allowfullscreen></iframe>
+    </p>
+    <p class="note">
         Sending 4-kilogram satellites to space, and a lot of them. Then use them to capture Earth images. The data is free for you to use through API.
     </p>
-    <p>embed video</p>
 </section>
 
 <section>
     <h3>Anticipating the Future</h3>
     <h4>An Introduction to Value Chain Mapping</h4>
-    <p>
-        Extremely funny and sarcastic talk, but with a really insightful/usable idea on how to position your company's strategy to dominate future competition. Move before others move.
+    <p class="center pad-top">
+        <iframe width="640" height="360" src="//www.youtube.com/embed/NnFeIt-uaEc" frameborder="0" allowfullscreen></iframe>
     </p>
-    <p>embed video</p>
+    <p class="note">
+        Extremely funny talk, but with a really insightful/usable idea on how to position your company's strategy to dominate future competition. Move before others move.
+    </p>
 </section>
 
 <section>
-    <h3>codig music</h3>
-    <h4>something here?</h4>
-    <p>
-        No more need to learn about playing music instruments. Learn about signal processing and music theories will be good enough for you to code music. Yes! Coding music!!!
+    <h3>The Concert Programmer</h3>
+    <p class="center pad-top">
+        <iframe width="640" height="360" src="//www.youtube.com/embed/yY1FSsUV-8c" frameborder="0" allowfullscreen></iframe>
     </p>
-    <p>embed video</p>
+    <p class="note">
+        No need to practice music instruments anymore, but to study signal processing and music theories. The future may be programmed electronic music.
+    </p>
 </section>
 
 <section>

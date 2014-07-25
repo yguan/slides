@@ -41,7 +41,7 @@
     <section>
         <h2>OSCON 2014 Learning</h2>
         <p>
-            This presentation covers what I learned from <a href="http://www.oscon.com/oscon2014">OSCON 2014</a>.
+            This presentation covers what I learned from <a href="http://www.oscon.com/oscon2014" target="_blank">OSCON 2014</a>.
         </p>
         <ul class="indent">
             <li>Inspirational keynotes</li>
