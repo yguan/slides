@@ -41,7 +41,15 @@ ul.indent {
 }
 
 .reveal {
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+}
+
+.reveal section {
+    font-size: 0.9em;
+}
+
+.reveal section ul {
+    line-height: 1.3em !important;
 }
 
 .reveal pre {
@@ -61,7 +69,7 @@ pre code {
 
 .reveal .note,
 .reveal .small {
-    font-size: .6em;
+    font-size: .7em;
 }
 
 .reveal table th {

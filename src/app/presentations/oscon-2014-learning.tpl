@@ -17,8 +17,7 @@
     <ul class="indent">
         <li><a href="#/2">Inspirational keynotes</a></li>
         <li><a href="#/6">Insightful sessions</a></li>
-        <li>Introductory sessions</li>
-        <li>Observations</li>
+        <li>Miscellaneous</li>
         <li>Adoptable Tools/Frameworks</li>
     </ul>
 </section>
@@ -90,7 +89,7 @@
             <li>It took another few months to make HHVM surpass HipHop</li>
             <li>Today, only HHVM remains</li>
         </ul>
-        <p class="note">Here is <a href="http://www.wired.com/2013/06/facebook-hhvm-saga/all/" target="_blank">the complete story</a> behind HHVM.</p>
+        <p class="note">Here is <a href="http://www.wired.com/2013/06/facebook-hhvm-saga/all/" target="_blank">the story</a> behind HHVM.</p>
     </section>
 
     <section>
@@ -104,7 +103,7 @@
             <li>Form habits that would scale up the organization</li>
             <li>Join a team at the end</li>
         </ul>
-        <p class="note">Here is <a href="https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919" target="_blank">the complete story</a>.</p>
+        <p class="note">Here is <a href="https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919" target="_blank">the story</a>.</p>
     </section>
 
 
@@ -181,6 +180,17 @@
             <li><a href="http://techblog.netflix.com/2014/06/building-netflix-playback-with-self.html" target="_blank">Building Netflix Playback with Self-Assembling Components</a></li>
             <li><a href="http://techblog.netflix.com/2014/06/optimizing-netflix-streaming-experience.html" target="_blank">Optimizing the Netflix Streaming Experience with Data Science</a></li>
         </ul>
+    </section>
+
+    <section>
+        <h3>Engineering Velocity: Continuous Delivery at Netflix</h3>
+        <h4>by Diane Marsh | <a href="http://www.slideshare.net/diannemarsh/saturn-2014">slides</a></h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/7oEvlcUMqpE" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p class="note">
+            This gives you an insider view of Netflix's continuous delivery culture.
+        </p>
     </section>
 </section>
 
@@ -260,12 +270,33 @@
         <p>
             There are a few takeaways from this talk.
         </p>
-        <ul>
+        <ul class="indent">
             <li>Decouple services with event-driven architecture</li>
             <li>Services publish/subscribe to channels</li>
             <li>Events should be raw and contain all the information</li>
             <li>Apache Kafka is something to know about</li>
         </ul>
+        <p class="note"><a href="http://java.dzone.com/articles/exploring-message-brokers" target="_blank">Here</a> is comparison of a few message brokers</p>
+    </section>
+
+    <section>
+        <h3>Domain Event Driven Architecture</h3>
+        <p class="center pad-top">
+            <iframe src="//www.slideshare.net/slideshow/embed_code/3395407" width="599" height="487" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        </p>
+        <p class="note">
+            Check out the <a href="http://www.infoq.com/presentations/Domain-Event-Driven-Architecture" target="_blank">video</a> as well. It is really good.
+        </p>
+    </section>
+
+    <section>
+        <h3>SOA and Event Driven Architecture</h3>
+        <p class="center pad-top">
+            <iframe src="//www.slideshare.net/slideshow/embed_code/26839545" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        </p>
+        <p class="note">
+            Check out the <a href="http://vimeo.com/64505378" target="_blank">video</a> as well. Even though the video's quality is bad, but the talk is really good.
+        </p>
     </section>
 
     <section>
@@ -293,16 +324,45 @@
     </section>
 </section>
 
-<!--<li></li>-->
-<!--<a href="" target="_blank"></a>-->
-<!--<p class="note"></p>-->
-
 <section>
-    <h2>Introductory sessions</h2>
+    <h2><a href="http://www.oscon.com/oscon2014/public/schedule/detail/37724">High Performance Visualizations with Canvas</a></h2>
+    <h4>By Ryan Richards (Fastly)</h4>
+    <p class="center pad-top">
+        <iframe src="//player.vimeo.com/video/96425319" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </p>
+    <p class="note">
+        The canvas charting library <a href="http://fastly.github.io/epoch/" target="_blank">epoch</a> looks really promising.
+    </p>
 </section>
 
 <section>
-    <h2>Observations</h2>
+    <h2>Miscellaneous</h2>
+</section>
+
+<section>
+    <h3>A Conversation with a Sauce Labs engineer</h3>
+    <ul>
+        <li>Dedicated VM for browser instances</li>
+        <li>VM images are ready to deploy</li>
+        <li>VMs are thrown away after tests</li>
+        <li>Minimal Windows Server for IE</li>
+        <li>Aptium is used for mobile testing</li>
+    </ul>
+    <p class="note">
+        More information can be found <a href="https://saucelabs.com/docs/sauce-vs-local" target="_blank">here</a>.
+    </p>
+</section>
+
+<section>
+    <h3>A list of sites to look at</h3>
+    <ul>
+        <li><a href="http://spf13.com/presentation/first-go-app" target="_blank">Getting Started With Go</a></li>
+        <li><a href="https://www.data.gov/" target="_blank">U.S. Government’s Open Data</a></li>
+        <li><a href="http://www.usability.gov/" target="_blank">U.S. Government's Usability Site</a></li>
+        <li><a href="https://www.gov.uk/design-principles" target="_blank">UK Government Digital Service Design Principles</a></li>
+        <li><a href="https://www.gov.uk/service-manual/digital-by-default" target="_blank">Digital by Default Service Standard</a></li>
+        <li><a href="http://cdn.oreillystatic.com/news/graphics/prog_lang_poster.pdf" target="_blank">History of Programming Languages</a></li>
+    </ul>
 </section>
 
 <section>
@@ -315,9 +375,13 @@
         <li><a href="http://netflix.github.io/" target="_blank">Netflix Open Source</a></li>
         <li><a href="https://spark.apache.org/" target="_blank">Apache Spark</a></li>
         <li><a href="http://kafka.apache.org/" target="_blank">Apache Kafka</a></li>
+        <li><a href="http://mesos.apache.org/" target="_blank">Apache Mesos</a></li>
     </ul>
 </section>
 
+<section>
+    <h1>Questions?</h1>
+</section>
 
 <section>
     <h1>The End</h1>
