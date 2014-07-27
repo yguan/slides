@@ -17,8 +17,7 @@
     <ul class="indent">
         <li><a href="#/2">Inspirational keynotes</a></li>
         <li><a href="#/6">Insightful sessions</a></li>
-        <li>Miscellaneous</li>
-        <li>Adoptable Tools/Frameworks</li>
+        <li><a href="#/13">Miscellaneous</a></li>
     </ul>
 </section>
 
@@ -366,7 +365,7 @@
 </section>
 
 <section>
-    <h2>Adoptable Tools/Frameworks</h2>
+    <h3>Adoptable Tools/Frameworks</h3>
     <ul>
         <li><a href="http://phabricator.org/" target="_blank">Phabricator</a></li>
         <li><a href="http://webpack.github.io/" target="_blank">Webpack</a></li>
