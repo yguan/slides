@@ -61,6 +61,7 @@
 
 <section>
     <h2>Insightful sessions</h2>
+    <h4>No OSCON 2014 Video here because O'Reilly is not releasing the videos to the public</h4>
 </section>
 
 <section>
@@ -115,7 +116,6 @@
             <li>After joining a team, there is one month trial period</li>
             <li>The side-effect: no crappy team</li>
         </ul>
-        <p class="note">Here is <a href="http://techinsiders.io/facebook/developer/2014/02/03/meet-elena-perez-software-engineer-at-facebook.html" target="_blank">an insider's view</a>.</p>
     </section>
 
     <section>
@@ -129,9 +129,61 @@
         </ul>
     </section>
 </section>
-    <!--<li></li>-->
-    <!--<a href="" target="_blank"></a>-->
-    <!--<p class="note"></p>-->
+
+<section>
+    <section>
+        <h2>
+            <a href="http://www.oscon.com/oscon2014/public/schedule/detail/34451" target="_blank">
+                Netflix API : Top 10 Lessons Learned
+            </a>
+        </h2>
+        <h4>Daniel Jacobson (Netflix) | <a href="http://www.slideshare.net/danieljacobson/top-10-lessons-learned-from-the-netflix-api-oscon-2014" target="_blank">slides</a></h4>
+        <p>The talks was only an overview, but it did get me to research more about Netflix's technology and processes.</p>
+        <ul class="indent">
+            <li>Netflix's API design is quite sophisticated</li>
+            <li>The stack is primarily built with Java</li>
+            <li>It uses Amazon Web Services extensively</li>
+            <li>It does a good job to open source its technology</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Netflix API case study</h3>
+        <h4>with Daniel Jacobson</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/StCrm572aEs" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p class="note">
+            It's quite a good talk about API design.
+        </p>
+    </section>
+
+    <section>
+        <h3>Netflix OSS Cloud</h3>
+        <h4>by Carl Quinn</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/I3T_-dvX6i0" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p class="note">
+            It's a really good overview of Netflix's OSS.
+        </p>
+    </section>
+
+    <section>
+        <h3>The evolution of Netflix's API</h3>
+        <h4>A collection of Netflix's blog posts</h4>
+        <ul>
+            <li><a href="http://techblog.netflix.com/2012/07/embracing-differences-inside-netflix.html" target="_blank">Embracing the Differences : Inside the Netflix API Redesign</a></li>
+            <li><a href="http://techblog.netflix.com/2013/01/optimizing-netflix-api.html" target="_blank">Optimizing the Netflix API</a></li>
+            <li><a href="http://techblog.netflix.com/2013/08/deploying-netflix-api.html" target="_blank">Deploying the Netflix API</a></li>
+            <li><a href="http://techblog.netflix.com/2013/11/preparing-netflix-api-for-deployment.html" target="_blank">Preparing the Netflix API for Deployment</a></li>
+            <li><a href="http://techblog.netflix.com/2014/03/the-netflix-dynamic-scripting-platform.html" target="_blank">The Netflix Dynamic Scripting Platform</a></li>
+            <li><a href="http://techblog.netflix.com/2014/06/building-netflix-playback-with-self.html" target="_blank">Building Netflix Playback with Self-Assembling Components</a></li>
+            <li><a href="http://techblog.netflix.com/2014/06/optimizing-netflix-streaming-experience.html" target="_blank">Optimizing the Netflix Streaming Experience with Data Science</a></li>
+        </ul>
+    </section>
+</section>
+
 <section>
     <h2>
         <a href="http://www.oscon.com/oscon2014/public/schedule/detail/34192" target="_blank">
@@ -143,10 +195,107 @@
         <iframe width="640" height="360" src="//www.youtube.com/embed/7aYS9PcAITQ" frameborder="0" allowfullscreen></iframe>
     </p>
     <p class="note">
-        Functional programming makes coding a lot simpler, and it can eliminate a lot of design patterns used primarily by object-oriented programming.
+        Functional programming makes coding a lot simpler, and it can eliminate a lot of design patterns used primarily by object-oriented programming. It's a higher level of abstraction, more productive, and no more thread programming.
     </p>
+</section>
+
+
+<section>
+    <section>
+        <h2><a href="http://www.oscon.com/oscon2014/public/schedule/detail/37736" target="_blank">Apache Spark: A Killer or Savior of Apache Hadoop?</a></h2>
+        <h4>Roman Shaposhnik (Pivotal Inc.)</h4>
+        <p>
+            The session was a good overview of Spark and its differences from Hadoop, but <a href="http://spark-summit.org/2014/agenda">Spark Summit 2014</a> had better talks.
+        </p>
+    </section>
+
+    <section>
+        <h3>Spark's Role in the Big Data Ecosystem</h3>
+        <h4>By Matei Zaharia</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/e-Ys-2uVxM0?list=PL-x35fyliRwiST9gF7Z8Nu3LgJDFRuwfr" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </section>
+
+    <section>
+        <h3>Spark and the future of big data applications</h3>
+        <h4>By Eric Baldeschwieler</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/c_i2waZvwOc?list=PL-x35fyliRwiST9gF7Z8Nu3LgJDFRuwfr" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </section>
+
+    <section>
+        <h3>The Future of Spark</h3>
+        <h4>By Patrick Wendell</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/2iXQnTVgHuw?list=PL-x35fyliRwjCR-gDhk1ekG4jh2ltgKSV" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </section>
+
+    <section>
+        <h3>What's Next for BDAS?</h3>
+        <h4>By Mike Franklin</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/90ZrS9hVm-w?list=PL-x35fyliRwiST9gF7Z8Nu3LgJDFRuwfr" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p class="note">
+            This is a talk about <a href="https://amplab.cs.berkeley.edu/software/" target="_blank">Berkeley Data Analytics Stack</a>.
+        </p>
+    </section>
+
+    <section>
+        <h3>Databricks Application Spotlight - Typesafe</h3>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/a1eWu3AQ9yY?list=PL-x35fyliRwjCR-gDhk1ekG4jh2ltgKSV" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </section>
 
 </section>
+
+<section>
+    <section>
+        <h2><a href="http://www.oscon.com/oscon2014/public/schedule/detail/35464" target="_blank">Real-time Engineering at Uber and the Evolution of an Event-Driven Architecture</a></h2>
+        <h4>Jeff Wolski (Uber) | <a href="http://cdn.oreillystatic.com/en/assets/1/event/115/Real-time%20Engineering%20at%20Uber%20and%20the%20Evolution%20of%20an%20Event-Driven%20Architecture%20Presentation.pdf" target="_blank">slide</a></h4>
+        <p>
+            There are a few takeaways from this talk.
+        </p>
+        <ul>
+            <li>Decouple services with event-driven architecture</li>
+            <li>Services publish/subscribe to channels</li>
+            <li>Events should be raw and contain all the information</li>
+            <li>Apache Kafka is something to know about</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Enterprise Kafka: Kafka as a Service</h3>
+        <h4>By Todd Palino and Clark Haskins</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/7dkSze52i-o" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </section>
+
+    <section>
+        <h3>Kafka and Storm Stream Processing</h3>
+        <h4>By Markus Blumrich</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="360" src="//www.youtube.com/embed/0b7Ln_KYbjQ" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </section>
+
+    <section>
+        <h3>Apache Kafka and Real-Time Data Integration</h3>
+        <h4>By Jay Kreps</h4>
+        <p class="center pad-top">
+            <iframe width="640" height="480" src="//www.youtube.com/embed/aJuo_bLSW6s" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </section>
+</section>
+
+<!--<li></li>-->
+<!--<a href="" target="_blank"></a>-->
+<!--<p class="note"></p>-->
 
 <section>
     <h2>Introductory sessions</h2>
@@ -165,8 +314,7 @@
         <li><a href="https://github.com/facebook/huxley" target="_blank">Huxley</a></li>
         <li><a href="http://netflix.github.io/" target="_blank">Netflix Open Source</a></li>
         <li><a href="https://spark.apache.org/" target="_blank">Apache Spark</a></li>
-        <li><a href="" target="_blank">Phabricator</a></li>
-        <li></li>
+        <li><a href="http://kafka.apache.org/" target="_blank">Apache Kafka</a></li>
     </ul>
 </section>
 
