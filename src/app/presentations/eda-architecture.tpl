@@ -49,16 +49,24 @@
 
 <section>
     <section>
-        <h2>Command Query Responsibility Segregation (CQRS)</h2>
+        <h2>All about CQRS</h2>
     </section>
-
 
     <section>
         <p class="center pad-top">
             <iframe src="//player.vimeo.com/video/31645099" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </p>
         <p class="note">
-            Grey Young was the first one proposed CQRS, and here is the <a href="http://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf" target="_blank">CQRS Documents</a>.
+            Grey Young was the first one coined the term CQRS, and here is the <a href="http://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf" target="_blank">CQRS Documents</a>.
+        </p>
+    </section>
+
+    <section>
+        <p class="center pad-top">
+            <iframe src="//player.vimeo.com/video/13824218" width="900" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </p>
+        <p class="note">
+            His comments on <a href="http://www.blogcoward.com/archive/2008/11/25/DDD-Lite-and-Data-Access-One-way-of-doing-it.aspx" target="_blank">DDD-lite</a> is still quite true in some companies.
         </p>
     </section>
 
@@ -69,6 +77,16 @@
         </p>
         <p class="note">
             It's not the best talk, but it does have a good example and code.
+        </p>
+    </section>
+
+    <section>
+        <h2>Event Store for Web Applications</h2>
+        <p class="center pad-top">
+            <a href="http://www.infoq.com/presentations/event-store-web-apps" target="_blank"><img src="img/Event-Store-Grey-Young.png"></img></a>
+        </p>
+        <p class="note">
+            His talk has some interesting points about choosing different types of databases.
         </p>
     </section>
 
