@@ -62,11 +62,12 @@
     </section>
 
     <section>
+        <h2>Event Store for Web Applications</h2>
         <p class="center pad-top">
-            <iframe src="//player.vimeo.com/video/13824218" width="900" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <a href="http://www.infoq.com/presentations/event-store-web-apps" target="_blank"><img src="img/Event-Store-Grey-Young.png"></img></a>
         </p>
         <p class="note">
-            His comments on <a href="http://www.blogcoward.com/archive/2008/11/25/DDD-Lite-and-Data-Access-One-way-of-doing-it.aspx" target="_blank">DDD-lite</a> is still quite true in some companies.
+            His talk has some interesting points about choosing different types of databases.
         </p>
     </section>
 
@@ -81,22 +82,13 @@
     </section>
 
     <section>
-        <h2>Event Store for Web Applications</h2>
-        <p class="center pad-top">
-            <a href="http://www.infoq.com/presentations/event-store-web-apps" target="_blank"><img src="img/Event-Store-Grey-Young.png"></img></a>
-        </p>
-        <p class="note">
-            His talk has some interesting points about choosing different types of databases.
-        </p>
-    </section>
-
-    <section>
         <h2>Articles</h2>
         <p>A series of articles that will give you a better sense of what CQRS is.</p>
         <ul class="indent">
             <li><a href="http://msdn.microsoft.com/en-us/library/dn568103.aspx" target="_blank">Command and Query Responsibility Segregation (CQRS) Pattern</a></li>
             <li><a href="http://msdn.microsoft.com/en-us/library/dn589792.aspx" target="_blank">Event Sourcing Pattern</a></li>
             <li><a href="http://msdn.microsoft.com/en-us/library/jj554200.aspx" target="_blank">CQRS Journey</a></li>
+            <li><a href="http://www.blogcoward.com/archive/2008/11/25/DDD-Lite-and-Data-Access-One-way-of-doing-it.aspx" target="_blank">DDD-lite</a></li>
         </ul>
     </section>
 </section>
